@@ -1,0 +1,86 @@
+<!-- DOCTYPE defines this file as an HTML file. -->
+<!DOCTYPE html>
+<!-- 
+  The html tag is the tag that holds all content and metadata about the website.
+
+  If you have more than one <html> tag, you are doing something wrong.
+
+  lang has to be defined and is the language your website is written in.
+-->
+<html lang="en">
+  <!-- 
+    The head is the next tag immediately after the html tag.
+    It is in charge of holding metadata about the website, the title that
+    will be displayed in the tab of the web browser, favicon, and internal and 
+    external CSS styling (more on CSS later).
+
+    If you have more than <head> tag, you are also doing something wrong.
+  -->
+  <head>
+    <!-- 
+      This first meta tag talks about the encoding used to display
+      characters on the website (i.e., UTF-8).
+
+      This needs to be in the head. If you do not have it, you are wrong.
+    -->
+    <meta charset="UTF-8" />
+    <!-- 
+      The second meta tag talks about the viewport (a.k.a. the window that the
+      user is viewing the website in).
+
+      This tag deals with how the website resizes when the window changes in size.
+
+      This needs to be in the head. If you do not have it, you are wrong.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      NOTE: This commented line of code is how you add a favicon to your website.
+
+      This is outside the scope of this class (i.e., you do not need to know how to
+      do this.)
+    -->
+    <!-- <link rel="icon" type="image/x-icon" href="/images/re4-remake-fav.png" /> -->
+
+    <!-- 
+      The title tag is the text that displays in the tab of a web browser.
+
+      This should be included and should be descriptive of what the website is
+      displaying.
+
+      The default text is Document. DO NOT FORGET TO CHANGE THAT TEXT!
+      Try to change this text as the very first thing you do in your website.
+    -->
+    <title>Home | RE4 Remake Fan Website</title>
+    <!-- 
+    Make sure to remember to close your head tag.
+    
+    REMEMBER: None of the content you actually want displayed on your website
+    should EVER go in the head. It all goes in the body!
+  --></head>
+  <!-- 
+    The body tag immediately follows the head tag. It holds all the content
+    that you want displayed on your website.
+
+    There should only ever be one body tag! If you add another body tag, 
+    you are wrong!
+  -->
+  <body>
+    <!--
+      h1 is the main heading of a website. It is the largest type of heading.
+
+      There are six layers of headings (i.e., <h1>, <h2>, ..., <h5>, <h6>).
+
+      When you decide which heading you are using, you should think about
+      what level of content is that heading in:
+      - There should only ever be one h1 on your web page as it is the main heading.
+      - Depending on how you structure your website, you may have only one h2 or you
+        may have several.
+          - If you want to use a subheading for your main heading, you will only have
+            one h2 tag.
+          - If your h2 tag serves more as a heading for a section of content, you will
+            use h2 as the heading for each new section of content.
+    -->
+    <h1>Resident Evil 4 Remake</h1>
+    <h2>A Fan Website for the Video Game, Resident Evil 4 Remake</h2>
+  </body>
+</html>
