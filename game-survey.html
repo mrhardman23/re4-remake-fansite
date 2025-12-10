@@ -28,5 +28,109 @@
     <h2>A Fan Website for the Video Game, Resident Evil 4 Remake</h2>
 
     <h3>User Survey About Resident Evil 4 Remake</h3>
+
+    <p>
+      <b>
+        NOTE: This is an example form for a school project. DO NOT enter any
+        personal information into this form as it will not be kept private.
+      </b>
+    </p>
+    <form method="get" name="game-survey" id="survey">
+      <fieldset form="survey">
+        <legend>Contact Information</legend>
+        <!--
+          Remember that the for in a label is linked to the id of an input.
+        -->
+        <label for="full-name">Full Name (ex. Jane Doe) [required]:</label>
+        <input
+          type="text"
+          id="full-name"
+          name="name"
+          placeholder="Jane Doe"
+          required />
+        <br />
+        <br />
+
+        <label for="email-addr">
+          Email Address (ex. example@domain.com) [required]:
+        </label>
+        <input
+          type="email"
+          id="email-addr"
+          name="email"
+          placeholder="example@domain.com"
+          required />
+        <br />
+        <br />
+
+        <label for="phone-num">Phone Number (ex. 1-888-123-1234):</label>
+        <input
+          type="tel"
+          id="phone-num"
+          name="phoneNum"
+          placeholder="1-888-123-1234" />
+      </fieldset>
+      <br />
+      <br />
+
+      <fieldset form="survey">
+        <legend>Ratings</legend>
+        <fieldset form="survey">
+          <legend>
+            On a scale of 0 (Not Good At All) to 5 (Excellent), how would you
+            rank Resident Evil 4 Remake as a game? [required]
+          </legend>
+          <input
+            type="radio"
+            name="gameRank"
+            id="zero-rank-game"
+            value="0"
+            required />
+          <label for="zero-rank-game">0</label>
+          <br />
+          <input
+            type="radio"
+            name="gameRank"
+            id="one-rank-game"
+            value="1"
+            required />
+          <label for="one-rank-game">1</label>
+          <br />
+          <input
+            type="radio"
+            name="gameRank"
+            id="two-rank-game"
+            value="2"
+            required />
+          <label for="two-rank-game">2</label>
+          <br />
+          <input
+            type="radio"
+            name="gameRank"
+            id="three-rank-game"
+            value="3"
+            required />
+          <label for="three-rank-game">3</label>
+          <br />
+          <input
+            type="radio"
+            name="gameRank"
+            id="four-rank-game"
+            value="4"
+            required />
+          <label for="four-rank-game">4</label>
+          <br />
+          <input
+            type="radio"
+            name="gameRank"
+            id="five-rank-game"
+            value="5"
+            required />
+          <label for="five-rank-game">5</label>
+        </fieldset>
+        <br />
+        <fieldset form="survey"></fieldset>
+      </fieldset>
+    </form>
   </body>
 </html>
